@@ -6,10 +6,28 @@
 
 .dice {
   text-align: center;
+  padding: 5%;
   display: inline-block;
+}
+.input{
+  padding: 2%;
+  border: none;
+  border-radius: 12px;
+  font-size: 1rem;
+}
+.button {
+  padding: 1%;
+  border: none;
+  background-color: #c70000;
+  border-radius: 12px;
+  font-size: 1rem;
+  color: white;
 
 }
-
+.button:hover {
+  background-color: #611b1b;
+  color: white;
+}
 body {
   background-color: #393E46;
 }
@@ -19,12 +37,13 @@ h1 {
   font-family: 'Lobster', cursive;
   text-shadow: 5px 0 #232931;
   font-size: 8rem;
-  color: #4ECCA3;
+  color: #c70000;
 }
 
 p {
   font-size: 2rem;
-  color: #4ECCA3;
+  color: #FF0000
+  ;
   font-family: 'Indie Flower', cursive;
 }
 
