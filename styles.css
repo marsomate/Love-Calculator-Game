@@ -4,10 +4,10 @@
   text-align: center;
 }
 
-.dice {
+.name{
   text-align: center;
-  padding: 5%;
   display: inline-block;
+  padding: 5%;
 }
 .input{
   padding: 2%;
@@ -22,7 +22,6 @@
   border-radius: 12px;
   font-size: 1rem;
   color: white;
-
 }
 .button:hover {
   background-color: #611b1b;
@@ -31,7 +30,6 @@
 body {
   background-color: #393E46;
 }
-
 h1 {
   margin: 30px;
   font-family: 'Lobster', cursive;
@@ -39,18 +37,11 @@ h1 {
   font-size: 8rem;
   color: #c70000;
 }
-
 p {
   font-size: 2rem;
-  color: #FF0000
-  ;
+  color: #FF0000;
   font-family: 'Indie Flower', cursive;
 }
-
-img {
-  width: 80%;
-}
-
 footer {
   margin-top: 5%;
   color: #EEEEEE;
